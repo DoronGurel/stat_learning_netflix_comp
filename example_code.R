@@ -59,7 +59,11 @@ lin.mod1 = lm (y~.,data=trtr[,c(1:14,100)])
 
 ########### RMSE on validation data
 lin.pred1 = predict (lin.mod1, newdata=va)
+<<<<<<< HEAD
 sqrt(mean((va$y-lin.pred1)^2)) 
+=======
+sqrt(mean((va$y-lin.pred1)^2))
+>>>>>>> a4b5852337d85f11950a0584b87246801e90f2e0
 
 
 
